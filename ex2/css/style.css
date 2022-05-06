@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors On_tyan   (on_tyan@foxmail.com)
+ * @date    2022-03-02 09:30:25
+ * @version $1.0$
+ */
+/*h1 span {
+	color: #ff0000;
+}*/
+
+/*#header {
+    color: #336699;
+}
+
+.f1 {
+    text-align: center;
+    color: green;
+    font-family: "Microsoft Yahei";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+a:link {
+    color: #FF0000;
+}
+
+a:visited {
+    color: #00FF00;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+a:active {
+    color: #0000FF;
+}*/
+
+body {
+    margin: 0;
+}
+
+
+
+/*.m-bk {
+    position: absolute;
+    width: 1425px;
+    height: 845px;
+    background-image: url("../img/e01-1.png");
+    background-repeat: no-repeat;
+    opacity: .4;
+}*/
+
+.m-menu {
+    text-align: left;
+    padding-top: 24px;
+    font-size: 18px;
+}
+ 
+.f2 {
+    margin-top: 62px;
+    margin-left: 44px;
+    font-size: 17px;
+}
+.f3 {
+    margin-top: 7px;
+    margin-left: 44px;
+    font-size: 27px;
+    font-weight:bold;
+    letter-spacing: -1.25px
+}
+.f4 {
+    margin-top: 13px;
+    margin-left: 44px;
+    font-size: 18px;
+    letter-spacing: -0.2px
+}
+.f5 {
+    margin-top: 26px;
+    margin-left: 43px;
+    font-size: 18px;
+    letter-spacing: -1.0px
+}
+.f6 {
+    margin-top: 8px;
+    margin-left: 43px;
+    font-size: 18px;
+    letter-spacing: -0.5px
+}
+.f7 {
+    margin-top: 80px;
+    margin-left: 43px;
+    font-size: 18px;
+    letter-spacing: -0.3px
+}
+.f8 {
+    margin-top: 7px;
+    margin-left: 44px;
+    font-size: 28px;
+    font-weight:bold;
+    letter-spacing: -2.4px
+}
+.f9 {
+    margin-top: 12px;
+    margin-left: 44px;
+    font-size: 18px;
+    letter-spacing: -0.15px
+}
+.f10 {
+    margin-top: 27px;
+    margin-left: 44px;
+    font-size: 18px;
+    letter-spacing: -0.6px
+}
+.f11 {
+    margin-top: 8px;
+    margin-left: 44px;
+    font-size: 18px;
+    letter-spacing: -0.25px
+}
+.f12 {
+    margin-top: 79px;
+    margin-left: 44px;
+    font-size: 18px;
+    letter-spacing: -0.4px
+}
+.f13 {
+    margin-top: 7px;
+    margin-left: 44px;
+    font-size: 27px;
+    font-weight:bold;
+    letter-spacing: -1.25px
+}
+.f14 {
+    margin-top: 13px;
+    margin-left: 44px;
+    font-size: 18px;
+    letter-spacing: -0.25px
+}
+.f15 {
+    margin-top: 27px;
+    margin-left: 44px;
+    font-size: 18px;
+    letter-spacing: -1.0px
+}
+.f16 {
+    margin-top: 7px;
+    margin-left: 44px;
+    font-size: 18px;
+    letter-spacing: -0.4px
+}
+.f17 {
+    margin-top: -668px;
+    margin-left: 1032px;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: -1.5px
+}
+.f18 {
+    margin-top: 85px;
+    margin-left: 1093px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.65px
+}
+.f19 {
+    margin-top: 4px;
+    margin-left: 1093px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.5px
+}
+.f20 {
+    margin-top: 4px;
+    margin-left: 1093px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.6px
+}
+.f21 {
+    margin-top: 15px;
+    margin-left: 1093px;
+    font-size: 20px;
+    letter-spacing: -1.75px
+}
+.f22 {
+    margin-top: 6px;
+    margin-left: 1093px;
+    font-size: 18px;
+    letter-spacing: -0.3px
+}
+.f23 {
+    margin-top: 44px;
+    margin-left: 1093px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.5px
+}
+.f24 {
+    margin-top: 5px;
+    margin-left: 1094px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.7px
+}
+.f25 {
+    margin-top: 4px;
+    margin-left: 1094px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.5px
+}
+.f26 {
+    margin-top: 12px;
+    margin-left: 1094px;
+    font-size: 20px;
+    letter-spacing: -1.55px
+}
+.f27 {
+    margin-top: 6px;
+    margin-left: 1093px;
+    font-size: 18px;
+    letter-spacing: -0.3px
+}
+.f28 {
+    margin-top: 43px;
+    margin-left: 1094px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.6px
+}
+.f29 {
+    margin-top: 4px;
+    margin-left: 1094px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.9px
+}
+.f30 {
+    margin-top: 12px;
+    margin-left: 1094px;
+    font-size: 20px;
+    letter-spacing: -1.9px
+}
+.f31 {
+    margin-top: 6px;
+    margin-left: 1093px;
+    font-size: 18px;
+    letter-spacing: -0.3px
+}

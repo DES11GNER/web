@@ -1,0 +1,271 @@
+@charset "UTF-8";
+header {
+background: #008DEF;
+}
+.input{
+width: 181px;
+height: 24px;
+}
+.left>ul {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px 0 0px 30px;
+}
+.left>ul>li {
+float: left;
+display: block;
+height: 30px;
+line-height: 30px;
+padding: 0 10px;
+border-radius: 3px;
+}
+.left>ul>li>a {
+color: #fff;
+}
+.left>ul>.active {
+background-color: #0069B4;
+}
+.h-right {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+}
+.h-right>.dz {
+color: #fff;
+}
+.search {
+background-color: #fff;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+padding-right: 5px;
+}
+.search>.dropdown {
+background-color: #F9F9F9;
+padding: 0 5px;
+}
+.search>.dropdown>a {
+color: #000;
+}
+.search>input {
+border: 0;
+}
+section {
+margin-top: 15px;
+}
+.f-left {
+display: block;
+background-color: #666666;
+width: 90%;
+height: 300px;
+margin-bottom: 5px;
+}
+.f-right {
+background: #eee;
+width: 100%;
+height: 300px;
+margin: 0 0 0 50px;
+margin-bottom: 5px;
+}
+.f-right>hr {
+border-top: #AAA 1px dashed;
+width: 90%;
+margin: 0 auto;
+}
+.f-right>.top {
+height: 70%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+.f-right>.top>.btn {
+width: 150px;
+height: 50px;
+color: #009dff;
+}
+.f-right>.bottom {
+height: 30%;
+justify-content: center;
+display: flex;
+}
+.f-number {
+color: #009dff;
+}
+.f-right>.bottom>.b-f {
+width: 60px;
+float: left;
+margin-top: 20px;
+text-align: center;
+}
+.f-right>.bottom>.b-s {
+width: 70px;
+float: left;
+margin-left: 30px;
+margin-top: 20px;
+text-align: center;
+}
+.second>.row>.left .title {
+margin-bottom: 5px;
+}
+.second>.row>.left span.title {
+font-weight: 600;
+}
+.second>.row>.left span.content {
+display: block;
+text-indent: 2em;
+word-wrap: break-word;
+word-break: break-all;
+color: #999999;
+}
+.second>.row>.left>.row>div {
+padding: 15px 15px 10px 15px;
+min-height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border: 1px solid #EFEFEF;
+}
+.second>.row>.left rect {
+display: block;
+width: 100%;
+height: 100px;
+background-color: #666666;
+}
+.second>.row>.left .big rect {
+height: 150px;
+}
+.second>.row>.left .normal.ppt span.ppt {
+display: block;
+border-radius: 2px;
+background-color: #FF773A;
+font-weight: bold;
+font-size: x-small;
+line-height: 1.5em;
+color: #fff;
+margin-top: 10px;
+width: max-content;
+padding: 0 3px;
+margin-bottom: 3px;
+}
+.second>.row>.left .normal.ppt span.title {
+line-height: 0.8em;
+display: block;
+}
+span.other {
+color: #777;
+margin-top: 7px;
+}
+span.other.right {
+text-align: right;
+}
+.second>.row>.left .normal.video>.img {
+position: relative;
+}
+.second>.row>.left .normal.video>.img>svg {
+position: absolute;
+left: 5px;
+bottom: 5px;
+color: #fff;
+}
+.second>.row>.left>.row>.long>div {
+display: flex;
+flex-direction: row;
+}
+.second>.row>.left>.row>.long>.img {
+width: 100px;
+height: auto;
+}
+.second>.row>.left>.row>.long .main {
+margin-left: 10px;
+}
+.second>.row>.left>.row>.long .main span.content {
+margin-top: 20px;
+}
+.second>.row>.left .long rect {
+width: 150px;
+}
+.second>.row>.right>.title {
+display: flex;
+align-items: center;
+justify-content: space-between;a
+margin-bottom: 5px;
+}
+.second>.row>.right>.title>.more {
+float: right;
+display: flex;
+align-items: center;
+}
+.event {
+border: 1px solid #EFEFEF;
+border-bottom: 3px solid #0092F1;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 15px 15px 0 15px;
+margin-bottom: 10px;
+width: 350px;
+}
+.event span.other {
+color: #bbbbbb;
+margin-left: 5px;
+height: 40px;
+line-height: 40px;
+}
+.event rect.long {
+display: block;
+width: 100%;
+height: 100px;
+background-color: #666666;
+}
+.special {
+border: 1px solid #EFEFEF;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 15px 15px 40px 15px;
+margin-bottom: 10px;
+width: 350px;
+}
+.special>.title {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.special>.title>.more {
+float: right;
+display: flex;
+align-items: center;
+}
+.special>hr {
+border-top: #AAA 1px dashed;
+width: 90%;
+}
+.special>.img {
+position: relative;
+width: 60%;
+align-self: center;
+}
+.special>.img>rect {
+display: block;
+width: 100%;
+height: 100px;
+background-color: #666666;
+align-self: center;
+}
+.special>.img>.tag {
+display: block;
+position: absolute;
+background-color: rgba(0, 0, 0, 0.75);
+height: 25%;
+width: 100%;
+color: #fff;
+bottom: 0;
+text-align: center;
+}
+.second>.right {
+display: flex;
+flex-direction: column;
+}
